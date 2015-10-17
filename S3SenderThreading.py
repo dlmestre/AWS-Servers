@@ -11,9 +11,9 @@ import threading
 
 class s3bucket:
     def __init__(self,path):
-        self.ACCESS_KEY = "AKIAJADUQSP3Y6DITLSA" 
-        self.SECRET_KEY = "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"
-        self.bucket_name = "pqws-sqlbackups"
+        self.ACCESS_KEY = "access_key" 
+        self.SECRET_KEY = "secret_key"
+        self.bucket_name = "bucket_name"
         self.path = path
     def ModificationDate(self,filename):
         day = os.path.getmtime(filename)

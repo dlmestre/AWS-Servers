@@ -3,8 +3,8 @@ import boto.ec2.elb
 import boto
 import sys
 
-AWSAccessKeyId="AKIAJADUQSP3Y6DITLSA"
-AWSSecretKey="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"
+AWSAccessKeyId=""
+AWSSecretKey=""
 
 
 class AccessLB:
